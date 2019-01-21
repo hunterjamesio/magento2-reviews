@@ -1,8 +1,8 @@
 {
-  "name": "reviewscouk/reviews",
+  "name": "hunterjamesio/reviews",
   "autoload": {
     "psr-4": {
-      "Reviewscouk\\Reviews\\": ""
+      "HunterJamesio\\Reviews\\": ""
     },
     "files": [
       "registration.php"
