@@ -79,7 +79,7 @@ class SendOrderDetails implements Framework\Event\ObserverInterface
                     $p[] = [
                         'image' => $imageUrl,
                         'id' => $item->getId(),
-                        'sku' => $item->getSku(),
+                        'sku' => $item->getLinnworksSku(),
                         'name' => $item->getName(),
                         'pageUrl' => $item->getProductUrl()
                     ];
